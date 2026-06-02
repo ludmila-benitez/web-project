@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Space Grotesk";
+}
+
+:root {
+  --primary-background: #12131A;
+  --card-background: #1C1F2A;
+  --primary-text: #F2F2F7;
+  --secondary-text: #B4B7C9;
+  --purple-card: #C99DFF;
+  --orange-card: #FFB21E;
+  --red-card: #FF8A65;
+  --progress-bar: #D19BFF;
+  --border: #2A2D3A;
+}
+
+html{
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-background);
+}
+
+header{
+    
+}
+
