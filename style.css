@@ -97,7 +97,7 @@ textarea {
     border: 4px solid var(--border);
     background-color: var(--card-background);
     width: 100%;
-    height: 100px;
+    height: 150px;
     padding: 10px;
     color: var(--primary-text);
     margin-bottom: 15px;
@@ -106,7 +106,8 @@ textarea {
 textarea::placeholder{
     color: var(--primary-text);
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .options{
