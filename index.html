@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="marca">
+        <div class="brand">
             <img src="./assets/images/logo.png" alt="logo">
             <h1>Character Counter</h1>
         </div>
@@ -23,8 +23,13 @@
         <h2>Analyze your text in real-time.</h2>
         <textarea placeholder="Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every ineteraction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly."></textarea>
         <div class="options">
-            <input type="checkbox"> Exclude Spaces
-            <input type="checkbox"> Set Character Limit
+            <div class="check">
+                <div class="check-one">
+                    <input type="checkbox"> Exclude Spaces 
+                </div>
+                <div class="check-two"><input type="checkbox"> Set Character Limit
+                </div>
+            </div>
             <p>Approx. reading time: &lt;1 minute</p>
         </div>
         <div class="counter">
@@ -40,7 +45,8 @@
                 <p>04</p>
                 <p>Sentences Count</p>
             </div>
-        <div class="Letter Density">
+        </div>
+        <div class="Letter-density">
             <h3>Letter Density</h3>
             <div class="statistics">
                 <input type="range"> E
