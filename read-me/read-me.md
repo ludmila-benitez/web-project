@@ -4,16 +4,16 @@
 
 El objetivo principal del proyecto es el maquetado de un diseño previamente dado, utilizando HTML y CSS. 
 Se  busca integrar los conceptos de:
--Maquetado Semántico.
--Uso de Flexbox y/o Grid.
--Diseño responsive básico.
--Estilización avanzada en CSS.
--Organización y buenas prácticas.
+- Maquetado Semántico.
+- Uso de Flexbox y/o Grid.
+- Diseño responsive básico.
+- Estilización avanzada en CSS.
+- Organización y buenas prácticas.
 
 ## Tecnologías utilizadas
--CSS
--HTML
--Google Fonts
+- CSS
+- HTML
+- Google Fonts
 
 ## Estructura HTML
 
@@ -92,19 +92,17 @@ body
     │   ├── brand
     │   └── img
     ├── button
+    │   └── img
     └── section
         ├── h2
         ├── textarea
         ├── placeholder
         ├── options
         │   └── check
-        │       └── input
         ├── counter
         │   ├── total
         │   ├── word
         │   └── sentence
-        │       ├── number
-        │       └── description
         └── letter-density
             ├── h3
             ├── statistics
@@ -123,3 +121,5 @@ body
 
 - Centrado de la card de forma responsive.
 
+## captura del resultado final:
+![captura de la página](./resultado-screen.png)
