@@ -10,74 +10,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="brand">
-            <img src="./assets/images/logo.png" alt="logo">
-            <h1>Character Counter</h1>
-        </div>
-        <button>
-            <img src="./assets/images/icon.png", alt="settings">
-        </button>
-    </header>
-    <section class="hero">
-        <h2>Analyze your text in real-time.</h2>
-        <textarea placeholder="Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every ineteraction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly."></textarea>
-        <div class="options">
-            <div class="check">
-                <div>
-                    <input type="checkbox"> Exclude Spaces 
+    <section class="card">
+        <header>
+            <div class="brand">
+                <img src="./assets/images/logo.png" alt="logo">
+                <h1>Character Counter</h1>
+            </div>
+            <button>
+                <img src="./assets/images/icon.png", alt="settings">
+            </button>
+        </header>
+        <section class="hero">
+            <h2>Analyze your text in real-time.</h2>
+            <textarea placeholder="Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every ineteraction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly."></textarea>
+            <div class="options">
+                <div class="check">
+                    <div>
+                        <input type="checkbox"> Exclude Spaces 
+                    </div>
+                    <div>
+                        <input type="checkbox"> Set Character Limit
+                    </div>
                 </div>
-                <div>
-                    <input type="checkbox"> Set Character Limit
+                <p>Approx. reading time: &lt;1 minute</p>
+            </div>
+            <div class="counter">
+                <div class="total"> 
+                    <p class="number">278</p>
+                    <p class="description">Total Characters</p>
+                </div>
+                <div class="word"> 
+                    <p class="number">39</p>
+                    <p class="description">Word Count</p>
+                </div>
+                <div class="sentence"> 
+                    <p class="number">04</p>
+                    <p class="description">Sentences Count</p>
                 </div>
             </div>
-            <p>Approx. reading time: &lt;1 minute</p>
-        </div>
-        <div class="counter">
-            <div class="total"> 
-                <p class="number">278</p>
-                <p class="description">Total Characters</p>
+            <div class="letter-density">
+                <h3>Letter Density</h3>
+                <div class="statistics">
+                    <div>
+                        <label>E</label>
+                        <meter value="16.06" min="0" max="100"></meter>
+                        <p>40 (16.06%)</p>
+                    </div>
+                    <div>
+                        <label>I</label>
+                        <meter value="11.65" min="0" max="100"></meter>
+                        <p>29 (11.65%)</p>
+                    </div>
+                    <div>
+                        <label>T</label>
+                        <meter value="11.24" min="0" max="100"></meter>
+                        <p>28 (11.24%)</p>
+                    </div>
+                    <div>
+                        <label>O</label>
+                        <meter value="8.84" min="0" max="100"></meter>
+                        <p>22 (8.84%)</p>
+                    </div>
+                    <div>
+                        <label>N</label>
+                        <meter value="8.43" min="0" max="100"></meter>
+                        <p>21 (8.43)</p>
+                    </div>
+                </div>
+                <button>See more  &#8744;</button>
             </div>
-            <div class="word"> 
-                <p class="number">39</p>
-                <p class="description">Word Count</p>
-            </div>
-            <div class="sentence"> 
-                <p class="number">04</p>
-                <p class="description">Sentences Count</p>
-            </div>
-        </div>
-        <div class="letter-density">
-            <h3>Letter Density</h3>
-            <div class="statistics">
-                <div>
-                    <label>E</label>
-                    <meter value="16.06" min="0" max="100"></meter>
-                    <p>40 (16.06%)</p>
-                </div>
-                <div>
-                    <label>I</label>
-                    <meter value="11.65" min="0" max="100"></meter>
-                    <p>29 (11.65%)</p>
-                </div>
-                <div>
-                    <label>T</label>
-                    <meter value="11.24" min="0" max="100"></meter>
-                    <p>28 (11.24%)</p>
-                </div>
-                <div>
-                    <label>O</label>
-                    <meter value="8.84" min="0" max="100"></meter>
-                    <p>22 (8.84%)</p>
-                </div>
-                <div>
-                    <label>N</label>
-                    <meter value="8.43" min="0" max="100"></meter>
-                    <p>21 (8.43)</p>
-                </div>
-            </div>
-            <button>See more  &#8744;</button>
-        </div>
+        </section>
     </section>
 </body>
 </html>
