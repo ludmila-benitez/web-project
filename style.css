@@ -24,12 +24,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--card-background);
+    padding:20px;
 }
 
 .card {
     background-color: var(--primary-background);
     padding: 20px;
     box-shadow: 5px 5px 50px var(--border);
+    width: 650px;
 }
 
 header{
