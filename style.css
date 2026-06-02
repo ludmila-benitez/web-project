@@ -17,15 +17,57 @@
   --border: #2A2D3A;
 }
 
-html{
-    height: 100hv;
+body{
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--primary-background);
 }
 
 header{
-    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+    color:#F2F2F7;
 }
+
+.marca {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+body header img{
+    height: 50px;
+    width:  auto;
+}
+
+body header button{
+    height: 40px;
+    width:  40px;
+    background-color: var(--card-background);
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body header button img{
+    height: 20px;
+    width:  auto;
+}
+
+
+
+
 
