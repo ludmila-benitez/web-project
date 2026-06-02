@@ -113,6 +113,7 @@ textarea::placeholder{
     align-items: center;
     /* background-color: #C99DFF; */
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .check{
@@ -139,8 +140,50 @@ input[type="checkbox"] {
     border-radius: 4px;
     cursor: pointer;
 }
+
 input[type="checkbox"]:checked {
     background-color: var(--primary-text);
 }
 
+.counter {
+    /* background-color: #D19BFF; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
 
+.total{
+    background-image: url(./assets/images/img-purple.png);
+}
+
+.word{
+    background-image: url(./assets/images/img-orange.png);
+}
+
+.sentence{
+    background-image: url(./assets/images/img-red.png);
+}
+
+.total, .word, .sentence{
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    color: var(--primary-background);
+    padding: 10px;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 900;
+}
