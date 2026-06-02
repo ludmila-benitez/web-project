@@ -17,13 +17,19 @@
   --border: #2A2D3A;
 }
 
-body{
+html{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--card-background);
+}
+
+body{
     background-color: var(--primary-background);
+    padding: 20px;
+    box-shadow: 5px 5px 50px var(--border);
 }
 
 header{
@@ -189,7 +195,7 @@ input[type="checkbox"]:checked {
 }
 
 .letter-density{
-    background-color: black;
+    background-color: var(--primary-background);
     color: var(--primary-text);
     width: 100%;
     display: flex;
@@ -231,6 +237,17 @@ meter::-webkit-meter-bar {
 meter::-webkit-meter-optimum-value {
     background-color: var(--progress-bar);
     border-radius: 10px;
-    border-radius: none;
 }
 
+.letter-density button{
+    text-align: start;
+    background-color: var(--primary-background);
+    font-size: 12px;
+    color: var(--primary-text);
+    border: none;
+    cursor: pointer
+}
+
+.letter-density button:hover {
+    color: var(--progress-bar);
+}
