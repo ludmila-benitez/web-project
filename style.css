@@ -188,6 +188,49 @@ input[type="checkbox"]:checked {
     font-weight: 900;
 }
 
-.Letter-density{
-    background-color: aliceblue;
+.letter-density{
+    background-color: black;
+    color: var(--primary-text);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 0px 20px 0;
+    gap: 20px;
 }
+
+h3{
+    font-size: 20px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.statistics div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+meter{
+    height: 20px;
+    width: 480px;
+}
+
+meter::-webkit-meter-bar {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    border: none;
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: var(--progress-bar);
+    border-radius: 10px;
+    border-radius: none;
+}
+
